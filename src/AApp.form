@@ -145,7 +145,7 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\qntmt\Desktop\DH\dental-hive-a-unit-of-dr-garg-s-dental-care-and-cure-centre-delhi-1477388725-580f29b52c26d.png"/>
+              <Image iconType="3" name="/Photos/Logo.png"/>
             </Property>
           </Properties>
         </Component>

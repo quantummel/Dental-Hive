@@ -51,7 +51,7 @@ public class AApp extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\qntmt\\Desktop\\DH\\dental-hive-a-unit-of-dr-garg-s-dental-care-and-cure-centre-delhi-1477388725-580f29b52c26d.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Photos/Logo.png"))); // NOI18N
 
         jLabel2.setFont(new java.awt.Font("SansSerif", 1, 36)); // NOI18N
         jLabel2.setText("Add Database");
