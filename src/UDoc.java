@@ -241,22 +241,22 @@ if (pointt.isSelected())
 else if (pointtt.isSelected())
 {
  String a = nameddd.getText();
-    query = "update Doctors set Name=\""+a+"\" where DoctorID="+id+";";
+    query = "update Doctors set PhoneNumber=\""+a+"\" where DoctorID="+id+";";
 }
 else if (pointttt.isSelected())
 {
  String a = namedddd.getText();
-    query = "update Doctors set Name=\""+a+"\" where DoctorID="+id+";";
+    query = "update Doctors set Address=\""+a+"\" where DoctorID="+id+";";
 }
 else if (pointtttt.isSelected())
 {
  String a = nameddddd.getText();
-    query = "update Doctors set Name=\""+a+"\" where DoctorID="+id+";";
+    query = "update Doctors set DOB=\""+a+"\" where DoctorID="+id+";";
 }
 else if (pointttttt.isSelected())
 {
  String a = namedddddd.getText();
-    query = "update Doctors set Name=\""+a+"\" where DoctorID="+id+"; ";
+    query = "update Doctors set Qualification=\""+a+"\" where DoctorID="+id+"; ";
 }       
 try{
     Connection con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/clinic","root","1911");
@@ -267,7 +267,6 @@ JOptionPane.showMessageDialog(null,"UPDATED!");
 catch (Exception e)
 {
     JOptionPane.showMessageDialog(null,"Error");
-    e.printStackTrace();
 }
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
